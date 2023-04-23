@@ -10,10 +10,10 @@ public class Gear {
     private final double cog;
     private final Wheel wheel;
 
-    public Gear(double chaining, double cog, double rim, double tire) {
+    public Gear(double chaining, double cog, Wheel wheel) {
         this.chaining = chaining;
         this.cog = cog;
-        this.wheel = new Wheel(rim, tire);
+        this.wheel = wheel;
     }
 
     public double ratio() {
