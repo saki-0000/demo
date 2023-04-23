@@ -1,5 +1,11 @@
 package com.example.demo.domain.model;
 
+/**
+ * Gearクラス
+ *
+ * 歯のある2つのスプロケット間の比を計算する
+ * →単一責任になっていない＝タイヤやリムまで持っている！
+ */
 public class Gear {
     private final double chaining;
     private final double cog;
